@@ -1,0 +1,56 @@
+--to install hexedit--
+sudo apt install hexedit
+--to use hexedit--
+hexedit --enter-- "filename:" --enter the file we want to read--
+
+--Synopsis--
+
+hexedit [-s | --sector] [-m | --maximize] [-h | --help] [filename]
+
+--Description--
+
+--Options--
+
+-s, --sector
+    Format the display to have entire sectors. 
+-m, --maximize
+    Try to maximize the display. 
+-h, --help
+    Show the usage.
+
+--COMMANDS--
+--Moving--
+
+<, > :  go to start/end of the file
+Right:  next character
+Left:   previous character
+Down:   next line
+Up:     previous line
+Home:   beginning of line
+End:    end of line
+PUp:    page forward
+PDown:  page backward
+
+--Miscellaneous--
+
+F2:     save
+F3:     load file
+F1:     help
+Ctrl-L: redraw
+Ctrl-Z: suspend
+Ctrl-X: save and exit
+Ctrl-C: exit without saving
+Tab:    toggle hex/ascii
+Return: go to
+Backspace: undo previous character
+Ctrl-U: undo all
+Ctrl-S: search forward
+Ctrl-R: search backward
+
+--Cut&Paste--
+
+Ctrl-Space: set mark
+Esc-W:  copy
+Ctrl-Y: paste
+Esc-Y:  paste into a file
+Esc-I:  fill
