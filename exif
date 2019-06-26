@@ -1,0 +1,4 @@
+--to install exif--
+apt install exif
+--Manual--
+man exif
